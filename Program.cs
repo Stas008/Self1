@@ -11,7 +11,7 @@ int SumTwoEllements (int x, int y)
 }
 
 str=Console.ReadLine();
-Console.WriteLine (SumTwoEllements(m,n));
+/* Console.WriteLine (SumTwoEllements(m,n)); */
 Console.WriteLine (str.Length);
 string[] words = str.Split(' ',',','.','!','?', ';');
 
@@ -23,3 +23,5 @@ for (int i = 0; i < words.GetLength(0); i++)
     }
 }
 Console.WriteLine (words.GetLength(0));
+
+
